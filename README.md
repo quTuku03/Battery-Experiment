@@ -7,7 +7,7 @@ This repository contains the Python control software **(read_data.py)** develope
 
 It integrates two hardware components:
 1.  **Arduino:** Acts as a voltmeter to read the battery's terminal voltage.
-2.  **Nordic Power Profiler Kit II (PPK2):** Measures the micro-ampere level discharge current.
+2.  **Nordic Power Profiler Kit II (PPK2):** Measures from micro-ampere to ~1ampere level discharge current.
 
 The script logs `Time`, `Voltage (V)`, and `Current (µA)` to a CSV file until the battery reaches a defined cutoff voltage.
 
