@@ -3,7 +3,7 @@
 
 ## Overview
 
-This repository contains the Python control software ***(read_data.py) *** developed for my Bachelor of Science thesis. The tool automates the process of recording battery discharge curves by synchronizing voltage readings and current measurements.
+This repository contains the Python control software **(read_data.py)** developed for my Bachelor of Science thesis. The tool automates the process of recording battery discharge curves by synchronizing voltage readings and current measurements.
 
 It integrates two hardware components:
 1.  **Arduino:** Acts as a voltmeter to read the battery's terminal voltage.
