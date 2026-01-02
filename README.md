@@ -28,4 +28,5 @@ This project relies on Python 3 and the following external libraries:
 ### Installation
 
 ```bash
-pip install pyserial ppk2-api
+pip install pyserial
+git clone https://github.com/IRNAS/ppk2-api-python
