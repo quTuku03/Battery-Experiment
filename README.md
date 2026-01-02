@@ -24,22 +24,10 @@ This project relies on Python 3 and the following external libraries:
 
 * `pyserial`: For communicating with the Arduino.
 * `ppk2-api`: For controlling the Power Profiler Kit II.
-## Arduino Firmware Setup
+* 
+## Arduino Setup
 
-The Arduino acts as a digitizer, reading the battery voltage and sending it to the Python script via Serial.
-
-###  Wiring
-* [cite_start]**Input Pin:** `A0` [cite: 1]
-* **Circuit:** Use a **voltage divider** connecting the battery's positive terminal to `A0`.
-    * [cite_start]**Resistors:** R1 & R2 must be **10kΩ** each[cite: 2].
-    * [cite_start]**Note:** Ensure both resistors have identical resistance values for accuracy[cite: 2].
-
-### Installation & Dependencies
-1.  **Library:** This project relies on the `Vcc` library (included as `Vcc.h` and `Vcc.cpp`). [cite_start]Ensure these files are placed in your Arduino project folder or libraries directory before compiling[cite: 2].
-2.  **Upload:** Flash the `READ_BATTERY_VOLTAGE.ino` sketch to your board.
-3.  **Settings:**
-    * [cite_start]**Baud Rate:** `115200` (Must match Python script)[cite: 8].
-    * [cite_start]**Calibration:** You may need to adjust the `VccCorrection` float in the code (Line 18) to match your specific hardware regulator[cite: 5].
+The Arduino script and required libraries are already included in this repository.
 
 
 ### Installation
